@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Login</title>
+    <body>
+        
+        <!--INTRODUÇÃO-->
+     <div class="intro-container">
+        <img src="modelo.jpg" alt="modelo">
+        <h2>Vamos Começar!</h2>
+        <p>Fique por dentro de tudo o que rola na Fashion Fever</p>
+     </div>
+        <!--FIM DA INTRODUÇÃO-->
+        <br>
+        
+         
+        <!--ACESSO AOS DADOS -->
+     <div class="input-container">
+        <label class="dados">Nome Completo:</label>
+        <input type="text" class="botao-dados">
+    </div>
+    
+    <br>
+    
+    <div class="input-container">
+        <label class="dados">Telefone:</label>
+        <input type="text" class="botao-dados">
+    </div>
+    
+    <br>
+    
+    <div class="input-container">
+        <label class="dados">Email:</label>
+        <input type="text" class="botao-dados">
+    </div>
+    
+    <!--FIM DO ACESSO AOS DADOS-->
+<br>
+   <div class="input-container">
+    <label class="deseja">Deseja receber email da Fashion Fever?</label>
+    <br>
+    <input type="radio" id="sim" name="botao-sim" value="SIM">
+    <label id="opum" for="botao-sim">Sim</label>
+    <input type="radio" id="nao" name="botao-sim" value="NAO">
+    <label id="opum"  for="botao-sim">Não</label>
+</div>
+<br>
+<br>
+
+<div class="enviar">
+<button class="button" onclick ="botaoEnvia">Enviar</button>
+</div>
+
+<script src="js.js"></script>
+   </body>
+  </head>
+</html>

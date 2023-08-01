@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(243, 247, 247);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 400px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+h2{
+    font-size: 40px;
+    margin-left: 800px;
+    margin-top: -550px;
+    font-family: "Noto", sans-serif;
+}
+
+p {
+    margin-left: 800px;
+}
+
+.botao-dados{ /*botao*/
+    margin-left: 800px;
+    width: 15%;
+    height: 25px;
+    border-color:rgb(253, 253, 253);
+   
+}
+
+.dados{/* digite seu nome*/
+    margin-left: 800px;
+    font-family: "Noto", sans-serif;
+    font-size: 17px;
+}
+.deseja{
+    margin-left: 800px;
+    font-family: "Noto", sans-serif;
+    font-size: 17px;
+}
+
+#sim{
+    margin-left: 800px;
+}
+
+#opum{
+    font-size: 15px;
+    font-family: "Noto", sans-serif;
+}
+
+/*inicio do botao*/
+.button{
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    color:rgb(255, 252, 252);
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 800px;
+    border: beige;
+}
+
+/* Defina o estilo do container da introdução */
+.intro-container {
+    text-align: center;
+}
+
+/* Estilize o container dos campos de entrada */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilize o botão de enviar */
+.enviar {
+    text-align: center;
+}
+
+
+@media screen and (max-width:1330px){
+    .form-image{
+        display: none;
+    }
+
+    .container {
+        width: 50%;
+    }
+    .form {
+       width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro-container {
+        display: block;
+        background-image: none; 
+
+    }
+ 
+    .container__imagem{
+     width: 50vw;
+    }
+    
+    .container_caixa{
+        margin: 2em 2em;
+    }
+
+    .dados {
+        font-size: 18px;
+    }
+
+    .botao-dados {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    p{
+        display: block;
+    }
+}
